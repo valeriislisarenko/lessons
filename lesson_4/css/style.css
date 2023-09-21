@@ -1,0 +1,114 @@
+@import url("reset.css");
+
+h1 {
+    color: rgb(255, 30, 0);
+}
+p {
+    color: rgb(8, 25, 210);
+}
+#nav {
+    color: blue;
+}
+.link {
+    color: rgb(255, 119, 0);
+}
+.text {
+    color: rgba(212, 36, 153, 0.225);
+}
+.boro {
+    color: rgb(62, 213, 158);
+}
+.ab {
+    color: rgba(0, 255, 225, 0.644);
+}
+.learstr {
+    color: rgb(0, 255, 98);
+}
+.learpen {
+    color: rgb(0, 234, 255);
+}
+.ac {
+    color: rgb(255, 30, 0);
+}
+.tychytayn {
+    color: rgb(0, 255, 102);
+}
+.tychyrob {
+    color: rgb(17, 255, 0);
+}
+.ad {
+    color: rgb(136, 0, 255);
+}
+.af {
+    color: rgb(255, 149, 0);
+}
+.wojcik {
+    color: rgb(111, 255, 0);
+}
+footer > div > a {
+    color: rgb(9, 91, 18);
+}
+
+/* #top {
+    color: rgb(0, 255, 251); */
+}
+.link {
+    color: rgb(0, 4, 255);
+}
+.item1,
+.item2,
+.item3 {
+    color: rgba(255, 0, 72, 0.43);
+}
+
+.item4,
+.item6,
+.item8,
+.item10,
+.item12 {
+    color: rgb(0, 255, 238);
+}
+.item5,
+.item7,
+.item9,
+.item11 {
+    color: rgb(255, 0, 115);
+}
+
+.itemm1,
+.itemm3,
+.itemm5,
+.itemm7,
+.itemm9,
+.itemm11 {
+    color: rgb(0, 213, 255);
+}
+.itemm2,
+.itemm4,
+.itemm6,
+.itemm8,
+.itemm12 {
+    color: rgb(255, 140, 0);
+}
+
+.food1,
+.food4 {
+    color: rgb(16, 16, 150);
+}
+.food2,
+.food5 {
+    color: rgb(30, 255, 0);
+}
+.food3,
+.food6,
+.food8 {
+    color: rgb(251, 255, 0);
+}
+
+.food7 {
+    color: #ff6200;
+}
+
+.food9 {
+    color: rgb(255, 21, 0);
+}
