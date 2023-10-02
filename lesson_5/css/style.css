@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,");
+@import url("fonts.css");
+@import url("reset.css");
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.a01 {
+    font-family: "Causten", sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 20px;
+}
+.a02 {
+    font-family: "Causten", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.a03 {
+    font-family: "Causten", sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 25px;
+}
+.a04 {
+    font-family: "Causten", sans-serif;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 18px;
+}
+.a05 {
+    font-family: "Causten", sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 20px;
+}
+.title,
+.subtitle,
+.subtitle3 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.27;
+}
+.title01 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    color: rgb(191, 0, 255, 0.866);
+}
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #37393f;
+}
+.subtitle,
+.subtitle02,
+.subtitle04 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6b77e5;
+}
+.subtitle3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #37393f;
+}
+.topp02,
+.topp03 {
+    line-height: 1.27;
+}
+.teh03,
+.teh05 {
+    font-weight: 500;
+}
+.item11 {
+    font-family: "Causten", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0ae7d1a5;
+}
+.title01,
+.subtitle02,
+.subtitle04 {
+    text-align: center;
+    line-height: 1.27;
+}
+.a02,
+.a01 {
+    text-align: justify;
+    line-height: 1.9;
+}
+.a03 {
+    text-align: right;
+    text-decoration: underline;
+}
+.a04 {
+    text-decoration: overline;
+    line-height: 1.4;
+    text-indent: 100px;
+}
+.a05 {
+    text-decoration: line-through;
+    line-height: 1.5;
+    text-indent: 100px;
+}
+.a01 {
+    text-shadow:
+        -5px 3px 5px rgb(0, 255, 0),
+        5px -6px 5px rgb(55, 0, 255, 0.444);
+    line-height: 1.9;
+    text-transform: capitalize;
+}
+.title01 {
+    text-shadow:
+        5px 3px 5px rgb(255, 0, 0, 0.358),
+        -5px -3px 5px rgb(0, 255, 13, 0.358);
+}
+.a03 {
+    text-transform: uppercase;
+    word-spacing: 50px;
+    text-shadow:
+        6px -3px 6px rgb(0, 255, 0),
+        -6px 3px 6px rgb(255, 111, 0);
+    line-height: 1.9;
+}
+.a02 {
+    letter-spacing: 5px;
+}
