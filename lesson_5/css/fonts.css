@@ -1,0 +1,42 @@
+@font-face {
+font-family: 'Causten';
+src:url('Causten-Regular.woff2') format('woff2'),
+    url('Causten-Regular.woff') format('woff');
+ font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+@font-face {
+font-family: 'Causten';
+src:  url('Causten-Light.woff2') format('woff2'),
+      url('Causten-Light.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+} 
+@font-face {
+   font-family: 'Causten';
+   src:url('Causten-Bold.woff2') format('woff2'),
+       url('Causten-Bold.woff') format('woff');
+    font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Causten';
+   src:url('Causten-Medium.woff2') format('woff2'),
+       url('Causten-Medium.woff') format('woff');
+    font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'Causten';
+   src:url('Causten-Semi-Bold.woff2') format('woff2'),
+       url('Causten-Semi-Bold.woff') format('woff');
+    font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,");
