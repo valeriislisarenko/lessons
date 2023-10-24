@@ -1,0 +1,506 @@
+@import url("fonts.css");
+@import url("reset.css");
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.top{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #00b906;
+    visibility: hidden ;
+  
+} 
+
+/* ++++++++++++++++Licencing++++++++++++++++ */
+
+.licencing {
+    max-width: 1218px;
+}
+
+h2 {
+    color: #37393f;
+    /* text-align: center; */
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.21;
+}
+h3 {
+    color: #37393f;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.21;
+}
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+h5 {
+    /* text-align: center; */
+    color: #37393f;
+
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+p {
+    color: #7d7d7d;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+.rectangle {
+    width: 12px;
+    height: 12px;
+    background-color: #40ddb6;
+    display: inline-block;
+    margin: 0 6px 0 0;
+}
+
+h5 {
+    margin: 0 0 16px 0;
+}
+
+span {
+    color: #40ddb6;
+}
+
+h4 + p {
+    color: #40ddb6;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+h3 {
+    margin: 0 0 11px 0;
+}
+
+.content1 {
+    margin: 0 0 100px 0;
+
+}
+
+.content2 {
+    margin: 0 0 100px 0;
+}
+
+
+.content1 + p {
+    margin: 0 0 32px 0;
+}
+.content2 + p {
+    margin: 0 0 24px 0;
+}
+h4 {
+    margin: 0 0 8px 0;
+}
+.licencing {
+    margin: 0 auto 100px auto;
+}
+.content {
+    margin: 0 auto;
+}
+.title {
+    width: 296px;
+    margin: 0 auto;
+}
+/* Project InformationProject InformationProject InformationProject Informati */
+.project {
+    max-width: 830px;
+}
+
+.inform {
+    font-family: "Poppins", sans-serif;
+    color: #37393f;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.27;
+    margin: 0 0 13px 0;
+}
+.information {
+    margin: 0 0 35px 0;
+    max-width: 830px;
+    color: #7d7d7d;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+}
+
+ul > li {
+    list-style: disc;
+}
+ol > li {
+    list-style: decimal-leading-zero;
+}
+ul,
+ol {
+    color: #7d7d7d;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.46;
+    width: 451px;
+    padding: 0 0 0 50px;
+}
+/* ==========Clothing for Women Online in India================ */
+
+.rectangle2 {
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: #8a33fd;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.clothing_title {
+    width: 552px;
+    height: 31px;
+    color: #3c4242;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+    margin: 0 0 30px 0;
+}
+.clothing_subtitle {
+    color: #807d7e;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin: 0 0 25px 0;
+}
+.clothing_link {
+    color: #807d7e;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    width: 168px;
+    height: 34px;
+}
+.clothing__text {
+    margin: 0 0 25px 0;
+}
+.clothing__text p {
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin: 0 0 20px 0;
+}
+
+.frame-block {
+    padding: 21px;
+}
+/* =================================jewels============ */
+.jewels {
+    padding: 0 0 90px 0;
+}
+.jewels__h4 {
+    color: #d58417;
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+}
+.jewels__h2 {
+    width: 503px;
+    color: #000;
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+.jewels__p {
+    max-width: 489px;
+    height: 174px;
+    color: #606060;
+    font-family: "Cormorant Infant", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.rectangle__5 {
+    width: 177px;
+    height: 336px;
+    border-radius: 235px;
+    margin: 14px 0 0 -10px;
+}
+.rectangle__7 {
+    width: 177px;
+    height: 336px;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    display: inline-block;
+    margin: 0 0 0 75px;
+}
+.rectangle__4 {
+    width: 307px;
+    height: 500px;
+    border-radius: 235px;
+    margin: 19px 11px -13px -10px;
+}
+.rectangle__6 {
+    width: 308px;
+    height: 506px;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+.blok__jewels {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+/* =================================== */
+.block1 {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px dashed #dd6f40;
+    border-bottom: 20px double #6740dd;
+    border-left: 20px groove #dd40cd;
+    background-color: rgba(193, 85, 215, 0.471);
+    padding: 50px;
+    margin: 5px;
+    max-width: 800px;
+}
+.block1:hover {
+    border-top: 20px dotted #dd7440;
+    border-right: 20px solid #7240dd;
+    border-bottom: 20px dotted #40dd62;
+    border-left: 20px double #dd40cd;
+    background-color: rgba(240, 240, 18, 0.529);
+}
+
+.inline {
+    border: 3px solid #cd0711;
+    background-color: rgba(186, 246, 179, 0.529);
+    max-width: 800px;
+    line-height: 2.2;
+    font-size: 20px;
+    padding: 5px;
+    margin: 120px;
+    outline: 10px groove #b900a6;
+}
+
+.inline-block {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px dashed #dd6f40;
+    border-bottom: 20px dotted #6740dd;
+    border-left: 20px groove #dd40cd;
+    background-color: rgb(255, 244, 127);
+    display: block;
+    padding: 20px;
+    margin: 45px;
+}
+.inline-block:hover {
+    border: 20px solid #40ddbe;
+    background-color: rgb(255, 244, 127);
+    border-radius: 10px;
+}
+.block2 {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px dashed #dd6f40;
+    border-bottom: 20px double #6740dd;
+    border-left: 20px groove #dd40cd;
+    padding: 50px;
+    max-width: 800px;
+    margin: 60px 0;
+    background-color: rgb(255, 176, 127);
+}
+.block2:hover {
+    border: 20px solid #52dd40;
+    background-color: rgba(41, 240, 18, 0.529);
+    border-radius: 15px;
+}
+.block3 {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px double #dd6f40;
+    border-bottom: 20px dotted #6740dd;
+    border-left: 20px groove #dd40cd;
+    padding: 50px;
+    margin: 40px;
+    max-width: 800px;
+    background-color: rgba(225, 183, 178, 0.697);
+}
+.block3:hover {
+    border: 20px dotted #d0dd40;
+    background-color: #52dd40;
+    border-radius: 20px;
+}
+.foot {
+    font-size: 40px;
+    font-weight: 800;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: blue;
+    display: block;
+    margin: 80px 10px 80px 10px;
+    padding: 50px;
+    background-color: rgb(106, 106, 224);
+    outline: 10px dotted #8400b9;
+}
+.foot:hover {
+    border: 20px dashed #40ddda;
+    text-decoration: 20px underline #e90707;
+    color: rgb(55, 255, 0);
+    background-color: rgb(158, 158, 234);
+    outline: 10px dashed #00b906;
+}
+.foot:focus {
+    border: 10px dotted #cd8416;
+    text-decoration: 2px underline overline wavy #ec0303;
+    color: rgb(176, 239, 30);
+    background-color: rgb(7, 7, 198);
+    outline: 10px solid #b900a6;
+}
+
+main {
+    margin: 0 0 100px 50px;
+}
+.tex1 {
+    margin: 50px;
+
+    color: rgb(64, 0, 255);
+    border: 5px dotted;
+    border-radius: 5px;
+
+    text-decoration: 3px underline #52dd40;
+    background-color: rgb(202, 202, 246);
+    max-width: 400px;
+}
+.tex2 {
+    color: rgb(255, 111, 0);
+    border-radius: 5px;
+    text-decoration: 3px underline #52dd40;
+    background-color: rgb(202, 202, 246);
+    max-width: 400px;
+    margin: 0 0 60px 40px;
+    outline: 40px solid #022af2;
+}
+.tex3 {
+    color: rgb(255, 111, 0);
+    border: 5px dotted;
+    border-radius: 5px;
+    text-decoration: 3px underline #52dd40;
+    background-color: rgb(202, 202, 246);
+    max-width: 400px;
+    margin: 0 0 60px 80px;
+}
+.tex1 p {
+    margin-bottom: 60px;
+    outline: 2px solid #ea4909;
+}
+.tex2 p {
+    margin-bottom: 60px;
+    border: 10px solid #02f20e;
+}
+
+.moon {
+    background: rgb(201, 197, 235);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow:
+        inset 1px 1px 20px 1px #0c120c,
+        15px 10px 60px 40px rgb(32, 42, 95);
+
+    margin: 50px;
+}
+.moon-2 {
+    background: rgb(241, 193, 193);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow:
+        inset 1px 1px 20px 1px #0c120c,
+        -30px 5px 60px 60px rgb(32, 42, 95);
+    margin: 50px;
+    opacity: 0.6;
+}
+.item {
+    background: rgb(182, 203, 175);
+    height: 100px;
+
+    width: 200px;
+    box-shadow:
+        inset 1px 1px 20px 1px #0c120c,
+        -10px 10px 30px 2px #555b55;
+    margin: 0 auto 20px auto;
+}
+.moon-3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 rgb(158, 158, 234);
+    margin: 0 auto 30px auto;
+}
+
+footer {
+    padding-bottom: 100px;
+}
+
+.arrow-right {
+    width: 0;
+    height: 0;
+    border-left: 100px solid red;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+}
+.arrow-left {
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid red;
+    border-top: 50px solid transparent;
+}
+.arrow-top {
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid red;
+    margin: 30px;
+}
+.arrow-bottom {
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid red;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+.foot {
+    width: 300px;
+}
+.foot:hover {
+    border: 20px dashed #40ddda;
+    text-decoration: 5px underline #e90707;
+    color: rgb(55, 255, 0);
+    background-color: rgb(158, 158, 234);
+    outline: 10px dashed #00b906;
+}
+.hom {
+    width: 65px;
+    height: 150px;
+    border: 10px solid #2ee612;
+    margin: 10px;
+    display: inline-block;
+}
