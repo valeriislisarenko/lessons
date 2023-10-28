@@ -1,0 +1,487 @@
+@import url("fonts.css");
+@import url("reset.css");
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.moon {
+    background: linear-gradient(45deg, #51bbec, #7290d0, #003bb9, #310574, #02c6f2, #004b6e);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow:
+        inset 1px 1px 20px 1px #0c120c,
+        15px 10px 60px 40px rgb(32, 42, 95);
+    margin: 50px;
+}
+
+.van {
+    max-width: 1440px;
+    height: 160px;
+    border: 4px solid #b90000;
+    background: linear-gradient(80deg, #b93b00, #b0b900, #2af202, #0012b9);
+    padding: 0 0 0 720px;
+    margin: 30px 40px;
+    /* align:center; */
+}
+/* ===============================business-plan====================== */
+.business {
+    width: 811px;
+    width: 831px;
+    /* border: 1px solid #2e00b9;  */
+    margin: 0 auto 50px auto;
+}
+.business-plan {
+    min-height: 693px;
+    width: 673px;
+    /* border: 1px solid #b90000;  */
+    margin: 0 auto;
+}
+.business-plan__titleh5 {
+    color: #37393f;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 218px;
+    min-height: 22px;
+    padding: 0 0 0 6px;
+    background: url("../img/box.png") 0 2px no-repeat;
+    /* background: url("../img/icon-text.svg") 0 2px no-repeat; */
+    margin: 0 0 14px 0;
+    text-align: center;
+    /* border:0.5px solid #f90830;   */
+}
+
+.business-plan__titleh2 {
+    width: 413px;
+    height: 96px;
+    /* border:0.5px solid #08f95c; */
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.21;
+    margin: 0 0 16px 0;
+}
+
+.business-plan__p1 {
+    color: #7d7d7d;
+    width: 673px;
+    height: 78px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+    margin: 0 0 15px 0;
+}
+
+.business-plan__p2 {
+    color: #7d7d7d;
+    width: 673px;
+    height: 52px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+    margin: 0 0 20px 0;
+}
+.business-plan__strategy {
+    color: #37393f;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    width: 392px;
+    height: 33px;
+    margin: 0 0 23px 0;
+    background: url("../img/vector.svg") 0px 0px no-repeat;
+    padding: 0 0 0 35px;
+}
+.business-plan__consulting {
+    color: #37393f;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+
+    width: 356px;
+    height: 33px;
+    margin: 0 0 43px 0;
+    background: url("../img/vector.svg") 0px 0px no-repeat;
+    padding: 0 0 0 35px;
+}
+.frameworks {
+    background: url("../img/icon-text.svg") 32px 0px no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #e3e3e3;
+
+    width: 295px;
+    height: 140px;
+}
+.experience {
+    background: url("../img/icon-cub.svg") 32px 0px no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #e3e3e3;
+    width: 295px;
+    height: 140px;
+    margin: 0 0 0 21px;
+}
+.frameworks-experience {
+    padding: 0 0 0 85px;
+    width: 173px;
+    height: 44px;
+}
+.frameworks-experience__experience {
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    margin: 0 0 3px 0;
+    width: 155px;
+    height: 30px;
+}
+
+.frameworks-experience__leverage {
+    color: #7d7d7d;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+    /* border:.1px solid #00b906; */
+    width: 173px;
+    height: 44px;
+}
+
+.business-plan__button {
+    width: 130px;
+    height: 22px;
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/* ====  WE MADE YOUR EVERYDAY FASHION BETTER!===== */
+.fashion {
+    /* max-width:  1245px; */
+    min-height: 638px;
+    font-size: 0px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0 30px 0px;
+}
+.section-1 {
+    width: 50%;
+    height: 638px;
+    display: inline-block;
+    background: url("../img/section-1.jpg") no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    padding: 183px 74px;
+}
+.section-2 {
+    width: 50%;
+    height: 638px;
+    display: inline-block;
+    background: url("../img/section-2.jpg") no-repeat;
+    vertical-align: top;
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+.section__1 {
+    max-width: 468px;
+    min-height: 84px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.47;
+    letter-spacing: 0.208px;
+    margin: 0 0 30px 0px;
+}
+
+.section__2 {
+    max-width: 451px;
+    min-height: 72px;
+    color: #fff;
+    font-family: "Causten", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0 0 30px 0px;
+}
+.section__3 {
+    max-width: 168px;
+    height: 46px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #fff;
+    color: #3c4242;
+    text-align: center;
+    font-family: "Causten", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* <!-- =====Consulting Website=====Discover our latest client projects= --> */
+
+.consalting__project {
+    max-width: 1920px;
+    padding: 15px;
+    margin: 150px auto 150px auto;
+}
+
+.title__list {
+    max-width: 852px;
+    min-height: 150px;
+    margin: 0 auto 47px auto;
+}
+
+.title__h5 {
+    color: #37393f;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 150px;
+    min-height: 22px;
+    padding: 0 0 0 16px;
+    background: url("../img/rectangle__8.svg") 0 2px no-repeat;
+    margin: 0 auto 14px auto;
+    text-align: center;
+}
+
+.title__h2 {
+    color: #37393f;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    max-width: 687px;
+    min-height: 48px;
+    margin: 0 auto 14px auto;
+}
+
+.title__p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content__list {
+    color: #37393f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    line-height: 1.27;
+    font-size: 0;
+}
+
+.content__list p {
+    max-width: 95px;
+    color: #7d7d7d;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 1.46;
+    padding: 0 0 0 26px;
+    background: url("../img/group 22.svg") no-repeat;
+}
+
+.content {
+    max-width: 384px;
+    min-height: 582px;
+    display: inline-block;
+    margin: 0 0 58px 34px;
+    font-size: 20px;
+}
+
+.financial {
+    background: url("../img/financial.png") no-repeat;
+    width: 384px;
+    height: 501px;
+    margin: 0 0 24px 0;
+}
+
+.marceting {
+    background: url("../img/marceting.png") no-repeat;
+    width: 384px;
+    height: 501px;
+    margin: 0 0 24px 0;
+}
+
+.busines {
+    background: url("../img/busines.png") no-repeat;
+    width: 384px;
+    height: 501px;
+    margin: 0 0 24px 0;
+}
+
+.investment {
+    background: url("../img/investment.png") no-repeat;
+    width: 384px;
+    height: 501px;
+    margin: 0 0 24px 0;
+}
+
+.development {
+    background: url("../img/development.png") no-repeat;
+    width: 384px;
+    height: 501px;
+    margin: 0 0 24px 0;
+}
+
+.fininvest {
+    background: url("../img/fininvest.png") no-repeat;
+    width: 384px;
+    height: 501px;
+    margin: 0 0 24px 0;
+}
+
+.cont__h4 {
+    margin: 10px;
+}
+/* ==========Clothing for Women Online in India================ */
+span {
+    font-weight: 600;
+}
+
+.clothing__title {
+    width: 552px;
+    height: 31px;
+    color: #3c4242;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.19;
+    letter-spacing: 0.56px;
+    margin: 0 0 30px 0;
+    background: url("../img/rectangle21s.svg") no-repeat;
+    padding: 0px 0px 0px 21px;
+}
+.clothing__subtitle {
+    color: #807d7e;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin: 0 0 25px 0;
+}
+.clothing__link {
+    color: #807d7e;
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    width: 168px;
+    height: 34px;
+}
+.clothing__text {
+    margin: 0 0 25px 0;
+}
+.clothing__text p {
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    margin: 0 0 20px 0;
+}
+
+.frame__block {
+    padding: 21px;
+}
+/* =================================== */
+.block1 {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px dashed #dd6f40;
+    border-bottom: 20px double #6740dd;
+    border-left: 20px groove #dd40cd;
+
+    padding: 50px;
+    margin: 5px;
+    max-width: 800px;
+
+    background: linear-gradient(
+        90deg,
+        rgba(235, 22, 97, 0.532563025210084) 5%,
+        rgba(214, 204, 36, 0.312257080078125) 11%,
+        rgba(129, 37, 240, 0.312257080078125) 21%,
+        rgba(40, 240, 70, 0.6614145658263305) 34%,
+        rgba(0, 212, 255, 1) 74%
+    );
+    /* visibility: hidden ; */
+}
+.block1:hover {
+    border-top: 20px dotted #dd7440;
+    border-right: 20px solid #7240dd;
+    border-bottom: 20px dotted #40dd62;
+    border-left: 20px double #dd40cd;
+    background-image: url("../img/vorscla2.jpg");
+}
+
+.block2 {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px dashed #dd6f40;
+    border-bottom: 20px double #6740dd;
+    border-left: 20px groove #dd40cd;
+    padding: 50px;
+    max-width: 800px;
+    margin: 60px 0;
+}
+.block2:hover {
+    /* border: 20px solid #52dd40;
+    background-color: rgba(41, 240, 18, 0.529);
+    border-radius: 15px;
+    background: linear-gradient(
+        90deg,
+        rgba(235, 22, 97, 0.532563025210084) 5%,
+        rgba(214, 204, 36, 0.312257080078125) 11%,
+        rgba(129, 37, 240, 0.312257080078125) 21%,
+        rgba(40, 240, 70, 0.6614145658263305) 34%,
+        rgba(0, 212, 255, 1) 74%
+    ); */
+    background-image: url("../img/harkiv.jpg");
+}
+
+.block3 {
+    border-top: 20px solid #40ddb6;
+    border-right: 20px double #dd6f40;
+    border-bottom: 20px dotted #6740dd;
+    border-left: 20px groove #dd40cd;
+    padding: 50px;
+    margin: 40px;
+    max-width: 800px;
+    color: #e60505;
+    font-weight: 700;
+
+    /* background-color: rgba(225, 183, 178, 0.697); */
+    background: linear-gradient(
+        150deg,
+        rgba(235, 22, 97, 0.532563025210084) 5%,
+        rgba(214, 204, 36, 0.312257080078125) 11%,
+        rgba(129, 37, 240, 0.312257080078125) 21%,
+        rgba(40, 240, 70, 0.6614145658263305) 34%,
+        rgba(0, 212, 255, 1) 74%
+    );
+}
+.block3:hover {
+    border: 20px dotted #d0dd40;
+    /* background-color: #52dd40; */
+    background: linear-gradient(
+        90deg,
+        rgba(100, 235, 22, 0.533) 5%,
+        rgba(214, 36, 128, 0.312) 11%,
+        rgba(111, 240, 37, 0.312) 21%,
+        rgba(40, 73, 240, 0.661) 34%,
+        rgba(0, 212, 255, 1) 74%
+    );
+    border-radius: 20px;
+}
