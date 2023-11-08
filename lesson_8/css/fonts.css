@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700");
 @import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700,");
-@import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic);
-@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:700);
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700");
 
 @font-face {
 	font-family: "Core Sans C";
@@ -40,15 +40,7 @@
 	font-weight: 400;
 	font-display: swap;
 }
-@font-face {
-	font-family: "Causten";
-	src:
-		url("../fonts/Causten-SemiBold.woff2") format("woff2"),
-		url("../fonts/Causten-SemiBold.woff") format("woff");
-	font-style: normal;
-	font-weight: 600;
-	font-display: swap;
-}
+
 @font-face {
 	font-family: "Causten";
 	src:
